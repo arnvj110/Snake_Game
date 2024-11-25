@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake.css">
+    <link rel="icon" href="https://seeklogo.com/images/S/skull-snake-logo-AB7A800F42-seeklogo.com.png">
+</head>
+
+<body>
+    <div>
+        <h1>Snake Game</h1>
+        <div class="game">
+            <div id="full">
+                <canvas id="box" width="550px" height="550px"></canvas>
+            </div>
+            <div class="details">
+                <div id="drop">Speed</div>
+                <div id="v" class="hid">
+                    <button id="low">Low</button>
+                    <button id="mid">Medium</button>
+                    <button id="high">High</button>
+                </div>
+                
+                <div class="score">
+                    <div>
+                        High Score : <span id="highScore" style="font-family: monospace;">0</span>
+                    </div>
+                    <div>
+                        Score : <span id="score" style="font-family: monospace;">0</span>
+                    </div>
+                    <button id="fullscr">Go Full Screen</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="snake.js"></script>
+</body>
+
+</html>
